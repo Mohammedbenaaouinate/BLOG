@@ -1,0 +1,246 @@
+/* Start Body Changee */
+/* End Body changes  */
+
+/* Start Header */
+.titre-brand span {
+  color: red !important;
+}
+/* End Header */
+/*Start Add Article */
+.formarticle {
+  width: 70%;
+  margin: auto;
+}
+
+/*End Add Article */
+/* Start Formulaire For Insrcription */
+.forml {
+  margin: auto;
+  width: 30%;
+  border-radius: 20px;
+  background-color: #ecf0f1;
+  padding: 30px;
+}
+.forml .b-login {
+  /* background-color: #ecf0f1; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(235, 235, 235, 1) 0%,
+    rgba(206, 214, 211, 1) 100%
+  );
+  border: 1px solid black;
+  font-weight: bold;
+  color: black;
+  border-radius: 20px;
+}
+@media (max-width: 800px) {
+  .forml {
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+@media (min-width: 995px) {
+  .linklogin {
+    background-color: rgb(72, 0, 255) !important;
+    width: 20%;
+  }
+}
+/* End Formulaire For Inscription */
+/*Start my Articles Page */
+.myarticle img {
+  border-radius: 20px;
+}
+
+.edit-icon {
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(55, 186, 55);
+  padding: 5px;
+  cursor: pointer;
+}
+.edit-icon a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.delete-icon {
+  border: 1px solid white;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.delete-icon a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.img-fulid {
+  width: 100% !important;
+}
+/* End My article Page  */
+/* Start table PART */
+
+.table {
+  background: url("./img/image2.gif");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.table .BounceToRight {
+  cursor: pointer;
+}
+.table .price_box {
+  padding: 10px;
+}
+/* .row > * {
+  background-color: aliceblue!important;
+  color: aliceblue !important;
+} */
+
+/* End Table PART  */
+/* Start Sign UP  */
+.signup {
+  border-radius: 60px;
+  padding: 20px;
+}
+.change-color-error {
+  color: red;
+}
+
+/* End Sign UP */
+
+/* Start Section Profile  */
+.editimage {
+  margin: auto;
+  max-width: 50%;
+  border-radius: 100px !important;
+}
+
+@media (min-width: 780px) {
+  .editimage {
+    margin: auto;
+    max-width: 30%;
+    border-radius: 40px !important;
+  }
+}
+.imageicon {
+  margin: auto;
+  display: inline-block;
+  margin-top: 20px !important;
+  padding: 10px;
+  background-color: #16a085;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+.imageicon a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 4px;
+}
+/* End Section Profile */
+/* Edit Image Article*/
+
+.edit-image-article {
+  /* max-width: 350px !important; */
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 180px !important;
+  width: 100% !important;
+}
+/* End Image article */
+
+/* Start Edit commentaire*/
+.edit-link {
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: green;
+  border-radius: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+/*End Edit Commentaire */
+
+/* Start About */
+.Aboutus {
+  background-image: url(images/aboutus.gif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  max-width: 100%;
+  padding: 10px;
+}
+.our-content {
+  background-color: #ecf0f1;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+.our-content ul li i {
+  color: aqua;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* End About  */
+/* Start Our Team  */
+.ourteam .image_team img {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+.ourteam .personal_information h5 {
+  color: aqua;
+  font-weight: bold;
+}
+.ourteam .social_media ul li {
+  margin-right: 10px;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  background-color: #bdc3c7;
+  border-radius: 100px !important;
+  cursor: pointer;
+}
+/* End Our Team */
+/* Start Contact Us  */
+.contactUs {
+  background-color: #ecf0f1;
+  padding: 10px;
+}
+.contactUs .image_contact_us img {
+  border-radius: 20px;
+}
+.contactUs .formulaire textarea {
+  height: 240px;
+}
+.contactUs .formulaire button{
+  background-color:#00146b !important ;
+}
+/* End Contact Us  */
+/* Start Footer  */
+footer {
+  background-color: #00146b;
+}
+footer p {
+  color: white;
+  font-weight: bold;
+}
+/* End Footer  */
